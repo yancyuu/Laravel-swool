@@ -8,7 +8,7 @@ class user extends BaseController
 {
     public function test(Request  $request){
         $post = $request->all();
-        return $post;
+        return json_encode($post);
     }
 
 }
