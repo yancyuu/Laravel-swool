@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 class User extends BaseController
 {
-    public function Test(Request  $request){
-        $post = $request->all();
-        return json_encode($post);
+    public function Test($param){
+        return key($param);
     }
 
 }
