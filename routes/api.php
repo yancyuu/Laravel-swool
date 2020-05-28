@@ -18,5 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::post('/{controller}/{method}}',function ($controller,$method){
-    return $controller.'@'.$method;
+    return new($controller)->$method;
 });
