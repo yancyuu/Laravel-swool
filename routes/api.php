@@ -17,6 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::post('/{controller}/{method}}',function ($controller,$method){
-    return new($controller)->$method;
-});
+Route::post('/UserTest}','User@Test');

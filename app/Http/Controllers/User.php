@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 
-class user extends BaseController
+class User extends BaseController
 {
-    public function test(Request  $request){
+    public function Test(Request  $request){
         $post = $request->all();
         return json_encode($post);
     }
