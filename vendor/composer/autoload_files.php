@@ -27,5 +27,6 @@ return array(
     'b6ec61354e97f32c0ae683041c78392a' => $vendorDir . '/scrivo/highlight.php/HighlightUtilities/functions.php',
     'ed962a97bd972bc82007176b647d4e36' => $vendorDir . '/facade/ignition/src/helpers.php',
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+    '13007ac3e0527bb3b7632afedb27482f' => $vendorDir . '/96qbhy/laravel-api-auth/src/fn.php',
     '97bcee38f59896ca87b32ab0e55c86b9' => $vendorDir . '/swooletw/laravel-swoole/src/Server/helpers.php',
 );

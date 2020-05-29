@@ -37,6 +37,7 @@ return array(
     'SwooleTW\\Http\\' => array($vendorDir . '/swooletw/laravel-swoole/src'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Ramsey\\Collection\\' => array($vendorDir . '/ramsey/collection/src'),
+    'Qbhy\\LaravelApiAuth\\' => array($vendorDir . '/96qbhy/laravel-api-auth/src'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src'),
     'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),

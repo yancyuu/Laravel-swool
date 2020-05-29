@@ -28,6 +28,7 @@ class ComposerStaticInit201cc75f966a4d1302bbda35c0db467d
         'b6ec61354e97f32c0ae683041c78392a' => __DIR__ . '/..' . '/scrivo/highlight.php/HighlightUtilities/functions.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '13007ac3e0527bb3b7632afedb27482f' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/fn.php',
         '97bcee38f59896ca87b32ab0e55c86b9' => __DIR__ . '/..' . '/swooletw/laravel-swoole/src/Server/helpers.php',
     );
 
@@ -83,6 +84,10 @@ class ComposerStaticInit201cc75f966a4d1302bbda35c0db467d
         array (
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
+        ),
+        'Q' => 
+        array (
+            'Qbhy\\LaravelApiAuth\\' => 20,
         ),
         'P' => 
         array (
@@ -289,6 +294,10 @@ class ComposerStaticInit201cc75f966a4d1302bbda35c0db467d
         array (
             0 => __DIR__ . '/..' . '/ramsey/collection/src',
         ),
+        'Qbhy\\LaravelApiAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src',
+        ),
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
@@ -464,6 +473,7 @@ class ComposerStaticInit201cc75f966a4d1302bbda35c0db467d
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\User' => __DIR__ . '/../..' . '/app/Http/Controllers/User.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -4004,6 +4014,14 @@ class ComposerStaticInit201cc75f966a4d1302bbda35c0db467d
         'Psy\\VersionUpdater\\GitHubChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/GitHubChecker.php',
         'Psy\\VersionUpdater\\IntervalChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/IntervalChecker.php',
         'Psy\\VersionUpdater\\NoopChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/NoopChecker.php',
+        'Qbhy\\LaravelApiAuth\\Command' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/Command.php',
+        'Qbhy\\LaravelApiAuth\\Exceptions\\AccessKeyException' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/Exceptions/AccessKeyException.php',
+        'Qbhy\\LaravelApiAuth\\Exceptions\\InvalidTokenException' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/Exceptions/InvalidTokenException.php',
+        'Qbhy\\LaravelApiAuth\\Exceptions\\SignatureMethodException' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/Exceptions/SignatureMethodException.php',
+        'Qbhy\\LaravelApiAuth\\Middleware' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/Middleware.php',
+        'Qbhy\\LaravelApiAuth\\ServiceProvider' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/ServiceProvider.php',
+        'Qbhy\\LaravelApiAuth\\Signatures\\Md5' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/Signatures/Md5.php',
+        'Qbhy\\LaravelApiAuth\\Signatures\\SignatureInterface' => __DIR__ . '/..' . '/96qbhy/laravel-api-auth/src/Signatures/SignatureInterface.php',
         'Ramsey\\Collection\\AbstractArray' => __DIR__ . '/..' . '/ramsey/collection/src/AbstractArray.php',
         'Ramsey\\Collection\\AbstractCollection' => __DIR__ . '/..' . '/ramsey/collection/src/AbstractCollection.php',
         'Ramsey\\Collection\\AbstractSet' => __DIR__ . '/..' . '/ramsey/collection/src/AbstractSet.php',

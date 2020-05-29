@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d95b7e563d56501b7f7f021fdaec6f0",
+    "content-hash": "70bed11ce995292e7a7235c5103fb7e4",
     "packages": [
+        {
+            "name": "96qbhy/laravel-api-auth",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qbhy/laravel-api-auth.git",
+                "reference": "66a12cd12e0786e0c37b1a7d2a1a3469fd287537"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qbhy/laravel-api-auth/zipball/66a12cd12e0786e0c37b1a7d2a1a3469fd287537",
+                "reference": "66a12cd12e0786e0c37b1a7d2a1a3469fd287537",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "laravel/laravel": "^5.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Qbhy\\LaravelApiAuth\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Qbhy\\LaravelApiAuth\\": "src"
+                },
+                "files": [
+                    "src/fn.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "96qbhy",
+                    "email": "96qbhy@gmail.com"
+                }
+            ],
+            "description": "laravel API 鉴权",
+            "time": "2018-05-04T15:52:25+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "1.3.0",
