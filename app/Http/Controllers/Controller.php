@@ -14,7 +14,7 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function todo($request){
         $param = $request->all();
-        $param = self::parseParam(array_keys($param));
+        $param = self::parseParam($param);
         log::info('post param info='.json_encode($param));
         return $param;
     }
