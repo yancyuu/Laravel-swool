@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::post('/User', function(Request $request){
-    $request->get('client_role');
-})->middleware(['api_auth']);
+//加上鉴权模式
+//Route::post('/User', function(Request $request){
+//    $request->get('client_role');
+//})->middleware(['api_auth']);
+Route::post('/GetData', function(Request $request){
+    (new Controller)->todo($request->all());
+});
