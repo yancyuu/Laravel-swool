@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Log;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public function todo($param){
+    public function todo($request){
+        $param = $request->all();
         $param = self::parseParam(array_keys($param));
         log::info('post param info='.json_encode($param));
         return $param;
