@@ -19,5 +19,5 @@ use App\Http\Controllers\Controller;
 //    $request->get('client_role');
 //})->middleware(['api_auth']);
 Route::post('/GetData', function(Request $request){
-    (new Controller)->todo($request->all());
+    return (new Controller)->todo($request->all());
 });
