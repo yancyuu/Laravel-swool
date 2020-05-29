@@ -176,6 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         //swoole
  	SwooleTW\Http\LaravelServiceProvider::class,
+        Qbhy\LaravelApiAuth\ServiceProvider::class,
 
     ],
 
