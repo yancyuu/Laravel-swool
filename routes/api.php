@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +21,8 @@ use App\Http\Controllers\Controller;
 //})->middleware(['api_auth']);
 Route::post('/GetData', function(Request $request){
     return (new Controller)->todo($request);
+});
+Route::post('/Auth/{action}', function($action,Request $request){
+    $className = 'Auth\\'.$action;
+    return (new $className)->todo($request);
 });
